@@ -3,7 +3,6 @@
 //
 #include "ros/ros.h"
 #include "info_msgs/personInfo.h"
-
 int main(int argc, char** argv){
     ros::init(argc,argv,"talker");
     ros::NodeHandle n;
